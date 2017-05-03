@@ -6,7 +6,7 @@ module FilepickerRails
                                        :extensions, :container, :services,
                                        :drag_text, :drag_class, :store_path,
                                        :store_location, :store_access,
-                                       :store_container, :multiple, :crop_dim]
+                                       :store_container, :multiple, :crop_dim, :crop_ratio, :crop_force]
 
     FILEPICKER_OPTIONS_TO_CAMELIZE = [:max_size, :max_files, :open_to, :language]
 
